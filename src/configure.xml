@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!-- dataset file path Aggregation spiral -->
+<element name="dataPath">./resources/shape/t4.8k.txt</element>
+<!-- delimiter of data for each point(row)(String) -->
+<element name="delimiter"> </element>
+<!-- whether have point id or not (-1 means not)(Integer) -->
+<element name="pointId">-1</element>
+<!-- first feature of the point (Integer)-->
+<element name="start">0</element>
+<!-- dimension of point (Integer)-->
+<element name="dimension">2</element>
+<!-- column label in data (Integer) -->
+<element name="labelPos">2</element>
+<!-- MST cutting threshold -->
+<element name="threshold">5.1</element>
+<!-- scale of each feature(just for better to shown in window) (Double)-->
+<element name="scale">1</element>
+<element name="noise">100</element>
+</root>
